@@ -86,4 +86,10 @@ set backspace=indent,eol,start
 set number
 set ruler
 set mouse=a
+" ctrlz, ctrly and ctrls
+inoremap <C-Z> <C-O>u
+inoremap <C-Y> <C-O><C-R>
+nmap <c-s> :w<CR>
+imap <c-s> <Esc>:w<CR>a
+
 syntax on
